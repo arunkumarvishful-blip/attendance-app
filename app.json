@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "a0-project",
+    "slug": "a0-project",
+    "version": "1.0.0",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Camera is used for face recognition attendance"
+      }
+    },
+    "android": {
+      "package": "com.anonymous.a0project"
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker",
+      "expo-asset"
+    ],
+    "assets": [
+      "./assets/face-api-models"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0e97d3ab-1688-4774-85ce-d21836b25808"
+      }
+    }
+  }
+}
